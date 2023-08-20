@@ -1,4 +1,4 @@
 export default (num: number): string => {
-  console.log('RUN');
+  console.log('RUN !!!');
   return num.toString();
 };
