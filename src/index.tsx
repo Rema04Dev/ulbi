@@ -1,2 +1,5 @@
 import { render } from 'react-dom';
-render(<h1>Hello React</h1>, document.getElementById('root'));
+import App from './components/App';
+import './index.scss';
+
+render(<App />, document.getElementById('root'));
